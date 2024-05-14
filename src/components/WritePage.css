@@ -1,0 +1,52 @@
+input {
+    background-color: transparent;
+}
+select{
+    background-color: transparent;
+}
+textarea{
+    background-color: transparent;
+}
+.writePage_main_list {
+    overflow: scroll;
+}
+/* 隐藏纵向滚动条 */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 0;
+  }
+  
+  /* 隐藏横向滚动条（如果有） */
+  ::-webkit-scrollbar-horizontal {
+    display: none;
+  }
+.writePage_main_list textarea{
+    width: 80%;
+    resize: none;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 10px;
+    padding: 10px; /* 设置内边距 */
+    font-size: 16px; /* 设置字体大小 */
+    line-height: 1.5; /* 设置行高 */
+    min-height: 120px;
+    border: 1px solid rgb(124, 3, 145);
+    
+}
+.writePage_main_list input{
+    width: 81.3%;
+    font-size: 26px;
+    margin-top: 10px;
+    border: 1px solid rgb(124, 3, 145);
+    font-weight: bolder;
+    margin-left: 9%;
+
+}
